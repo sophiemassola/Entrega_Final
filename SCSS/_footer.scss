@@ -1,0 +1,25 @@
+footer{
+    background-color: gray;
+    padding: 15px;
+    h3{
+        font-family: $letra_imprenta;
+        color: black;
+        font-size: 1rem;
+    }
+}
+
+.wapp{
+    @include contenido_flex;
+    justify-content: right;
+    img{
+        width: 25px;
+    } 
+}
+.insta{
+    @include contenido_flex;
+    justify-content: left;
+    img{
+        width: 25px;
+        margin-left: 10px;
+    }
+}

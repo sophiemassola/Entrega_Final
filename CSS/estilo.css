@@ -1,0 +1,109 @@
+.boton {
+  animation-name: aparecer;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0.5; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0.5; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: whitesmoke;
+  color: chocolate; }
+
+.COLOR {
+  background-color: whitesmoke; }
+
+.logo {
+  width: 170px; }
+
+.mr {
+  margin-right: 60px; }
+
+li a:hover {
+  font-weight: bold; }
+
+.lmenu1 {
+  margin-left: 650px; }
+
+.lmenu, .lmenu1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.4rem; }
+
+.lmenud {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.1rem; }
+
+.frase1 {
+  font-family: "MonteCarlo", cursive;
+  font-size: 4rem; }
+
+.alto {
+  height: 600px; }
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.title, .title2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.2rem;
+  color: #904000; }
+
+.subtitle {
+  font-family: "MonteCarlo", cursive;
+  font-size: 1.6rem;
+  color: black; }
+
+.title2 {
+  color: black; }
+
+.lbotones {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1rem; }
+
+.exp {
+  font-family: "MonteCarlo", cursive;
+  font-size: 1.2rem;
+  color: black; }
+
+@media screen and (max-width: 480px) {
+  .alto {
+    height: 300px; }
+  .bb {
+    display: none; }
+  .lmenu1 {
+    margin-left: 0px; } }
+
+footer {
+  background-color: gray;
+  padding: 15px; }
+  footer h3 {
+    font-family: "Bebas Neue", cursive;
+    color: black;
+    font-size: 1rem; }
+
+.wapp {
+  display: flex;
+  align-items: center;
+  justify-content: right; }
+  .wapp img {
+    width: 25px; }
+
+.insta {
+  display: flex;
+  align-items: center;
+  justify-content: left; }
+  .insta img {
+    width: 25px;
+    margin-left: 10px; }

@@ -1,0 +1,28 @@
+.COLOR{
+    background-color: whitesmoke;
+
+}
+.logo{
+    width: 170px;
+}
+.mr{
+    margin-right: 60px;
+}
+li{
+    a{
+        &:hover{
+            font-weight: bold;
+        }
+    }
+}
+.lmenu1{
+    @extend .lmenu;
+    margin-left: 650px;
+}
+.lmenu{
+    @include frases($letra_imprenta,1.4rem);
+    
+}
+.lmenud{
+    @include frases($letra_imprenta,1.1rem);
+}
