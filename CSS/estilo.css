@@ -21,7 +21,8 @@ body {
   color: #904000; }
 
 .COLOR {
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  margin-bottom: 50px; }
 
 .logo {
   width: 170px; }
@@ -81,13 +82,20 @@ li a:hover {
   display: flex;
   align-items: center; }
 
-@media screen and (max-width: 480px) {
+.mrb {
+  margin-bottom: 30px; }
+
+@media screen and (max-width: 560px) {
   .alto {
     height: 300px; }
   .bb {
     display: none; }
   .lmenu1 {
-    margin-left: 0px; } }
+    margin-left: 0px; }
+  .COLOR {
+    margin-bottom: 70px; }
+  .mrb {
+    margin-bottom: 90px; } }
 
 footer {
   background-color: gray;
