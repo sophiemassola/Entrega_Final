@@ -93,9 +93,11 @@ li a:hover {
   .lmenu1 {
     margin-left: 0px; }
   .COLOR {
-    margin-bottom: 100px; }
+    margin-bottom: 130px; }
   .mrb {
-    margin-bottom: 130px; } }
+    margin-bottom: 200px; }
+  .footer {
+    padding: 30px; } }
 
 footer {
   background-color: gray;
