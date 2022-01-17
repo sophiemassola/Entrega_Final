@@ -18,7 +18,7 @@
 
 body {
   background-color: whitesmoke;
-  color: chocolate; }
+  color: #904000; }
 
 .COLOR {
   background-color: whitesmoke; }
@@ -76,6 +76,10 @@ li a:hover {
   font-family: "MonteCarlo", cursive;
   font-size: 1.2rem;
   color: black; }
+
+.padre {
+  display: flex;
+  align-items: center; }
 
 @media screen and (max-width: 480px) {
   .alto {

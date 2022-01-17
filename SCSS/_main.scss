@@ -27,3 +27,7 @@
     @include frases($letra_cursiva, 1.2rem);
     color: black;
 }
+.padre{
+    @include contenido_flex;
+
+}
