@@ -1,6 +1,4 @@
 footer{
-    background-color: gray;
-    padding: 15px;
     h3{
         font-family: $letra_imprenta;
         color: black;
@@ -8,6 +6,64 @@ footer{
     }
 }
 
+.father{
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5fr;
+    grid-template-areas: 
+        "contact redes mailing"; 
+        .redes{
+            .rimg{
+                @include contenido_flex;
+                margin-top: 25px;
+                .wimg{
+                    width: 30px;
+                    margin-left: 130px;
+                }
+                .iimg{
+                    width: 30px;
+                    margin-left: 35px;
+                }
+                .timg{
+                    width: 30px;
+                    margin-left: 35px;
+                }
+            }
+        } 
+}
+.contact{
+    grid-area: contact;
+}
+.redes{
+    grid-area: redes;
+}
+.mailing{
+    grid-area: mailing;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+ /*    <footer class="footer">
+      <div class="row">
+        <div class="wapp col-6">
+          <img src="https://www.svgrepo.com/show/106976/whatsapp.svg"  alt="">
+          <h3 class="m-3">
+            +54 2235825600
+          </h3>
+        </div>
+        <div class="insta col-6">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Black_Instagram_icon.svg"  alt="">
+          <h3 class="m-3">
+            Vivi.espacio
+          </h3>
+        </div>
+      </div>
+    </footer>*/
+
+
+/*
 .wapp{
     @include contenido_flex;
     justify-content: right;
@@ -23,3 +79,4 @@ footer{
         margin-left: 10px;
     }
 }
+*/
