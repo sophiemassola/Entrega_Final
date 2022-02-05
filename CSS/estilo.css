@@ -33,10 +33,7 @@ body {
 li a:hover {
   font-weight: bold; }
 
-.lmenu1 {
-  margin-left: 650px; }
-
-.lmenu, .lmenu1 {
+.lmenu {
   font-family: "Bebas Neue", cursive;
   font-size: 1.4rem; }
 
@@ -97,7 +94,7 @@ li a:hover {
   color: black;
   font-weight: bold; }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 750px) {
   .alto {
     height: 300px; }
   .bb {
@@ -107,9 +104,16 @@ li a:hover {
   .COLOR {
     margin-bottom: 130px; }
   .mrb {
-    margin-bottom: 200px; }
+    margin-bottom: 100px; }
+  footer .father {
+    display: none; }
   .footer {
-    padding: 30px; } }
+    padding: 20px;
+    background-color: gray; } }
+
+@media screen and (min-width: 751px) {
+  .footer {
+    display: none; } }
 
 footer h3 {
   font-family: "Bebas Neue", cursive;
@@ -149,36 +153,17 @@ footer h3 {
   padding-left: 80px;
   padding-right: 80px; }
 
-/*    <footer class="footer">
-      <div class="row">
-        <div class="wapp col-6">
-          <img src="https://www.svgrepo.com/show/106976/whatsapp.svg"  alt="">
-          <h3 class="m-3">
-            +54 2235825600
-          </h3>
-        </div>
-        <div class="insta col-6">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Black_Instagram_icon.svg"  alt="">
-          <h3 class="m-3">
-            Vivi.espacio
-          </h3>
-        </div>
-      </div>
-    </footer>*/
-/*
-.wapp{
-    @include contenido_flex;
-    justify-content: right;
-    img{
-        width: 25px;
-    } 
-}
-.insta{
-    @include contenido_flex;
-    justify-content: left;
-    img{
-        width: 25px;
-        margin-left: 10px;
-    }
-}
-*/
+.footer .wapp {
+  display: flex;
+  align-items: center;
+  justify-content: right; }
+  .footer .wapp img {
+    width: 25px; }
+
+.footer .insta {
+  display: flex;
+  align-items: center;
+  justify-content: left; }
+  .footer .insta img {
+    width: 25px;
+    margin-left: 10px; }

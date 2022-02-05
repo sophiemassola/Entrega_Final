@@ -15,10 +15,7 @@ li{
         }
     }
 }
-.lmenu1{
-    @extend .lmenu;
-    margin-left: 650px;
-}
+
 .lmenu{
     @include frases($letra_imprenta,1.4rem);
     

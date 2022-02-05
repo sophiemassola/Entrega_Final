@@ -1,4 +1,4 @@
-@media screen and (max-width: 560px){
+@media screen and (max-width: 750px){
     .alto{
         height:300px;
     }
@@ -12,9 +12,19 @@
         margin-bottom: 130px;
     }
     .mrb{
-        margin-bottom: 200px;
+        margin-bottom: 100px;
     }
+    footer{
+        .father{display: none;} 
+   }
+   .footer{
+       padding: 20px;
+       background-color: gray;
+   }
+    
+}
+@media screen and (min-width: 751px){
     .footer{
-        padding: 30px;
+        display: none;
     }
 }
