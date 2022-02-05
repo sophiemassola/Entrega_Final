@@ -111,7 +111,7 @@ li a:hover {
     padding: 20px;
     background-color: gray; } }
 
-@media screen and (min-width: 751px) {
+@media screen and (min-width: 950px) {
   .footer {
     display: none; } }
 
@@ -150,8 +150,8 @@ footer h3 {
 
 .mailing {
   grid-area: mailing;
-  padding-left: 80px;
-  padding-right: 80px; }
+  padding-left: 30px;
+  padding-right: 30px; }
 
 .footer .wapp {
   display: flex;

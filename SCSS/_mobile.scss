@@ -20,10 +20,10 @@
    .footer{
        padding: 20px;
        background-color: gray;
-   }
-    
+   }  
 }
-@media screen and (min-width: 751px){
+
+@media screen and (min-width: 950px){
     .footer{
         display: none;
     }
