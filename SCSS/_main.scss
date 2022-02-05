@@ -26,6 +26,7 @@
 .exp{
     @include frases($letra_cursiva, 1.2rem);
     color: black;
+    font-weight: bold;
 }
 .padre{
     @include contenido_flex;
@@ -33,4 +34,13 @@
 }
 .mrb{
     margin-bottom: 30px;
+}
+.titlef{
+    @include frases($letra_imprenta,1.4rem);
+    color: $ct;
+}
+.subtitlef{
+    @include frases($letra_cursiva,1.2rem);
+    color: $cs;
+    font-weight: bold;
 }

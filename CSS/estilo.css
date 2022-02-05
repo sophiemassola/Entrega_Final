@@ -76,7 +76,8 @@ li a:hover {
 .exp {
   font-family: "MonteCarlo", cursive;
   font-size: 1.2rem;
-  color: black; }
+  color: black;
+  font-weight: bold; }
 
 .padre {
   display: flex;
@@ -84,6 +85,17 @@ li a:hover {
 
 .mrb {
   margin-bottom: 30px; }
+
+.titlef {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.4rem;
+  color: #904000; }
+
+.subtitlef {
+  font-family: "MonteCarlo", cursive;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold; }
 
 @media screen and (max-width: 560px) {
   .alto {
@@ -116,7 +128,7 @@ footer h3 {
     display: flex;
     align-items: center;
     margin-top: 25px; }
-    .father .redes .rimg .wimg {
+    .father .redes .rimg .fimg {
       width: 30px;
       margin-left: 130px; }
     .father .redes .rimg .iimg {
