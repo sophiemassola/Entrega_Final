@@ -8,6 +8,7 @@ footer{
 
 .father{
     margin: 20px;
+    margin-top: 80px;
     padding: 15px;
     text-align: center;
     display: grid;
@@ -19,7 +20,6 @@ footer{
             .rimg{
                 @include contenido_flex;
                 margin-top: 25px;
-                
                 .fimg{
                     width: 30px;
                     margin-left: 130px;

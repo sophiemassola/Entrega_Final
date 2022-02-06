@@ -9,7 +9,7 @@
         margin-left: 0px;
     }
     .COLOR{
-        margin-bottom: 130px;
+        margin-bottom: 40px;
     }
     .mrb{
         margin-bottom: 100px;
@@ -26,5 +26,8 @@
 @media screen and (min-width: 950px){
     .footer{
         display: none;
+    }
+    .titulo{
+        visibility: hidden;
     }
 }

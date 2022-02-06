@@ -1,3 +1,8 @@
+.titulo{
+    @include frases($letra_imprenta, 2rem);
+    text-align: center;
+    margin-bottom: 60px;
+}
 .frase1{
     @include frases($letra_cursiva, 4rem)
 }
